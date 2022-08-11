@@ -1,0 +1,63 @@
+/*Universal Changes*/
+html {
+    background-color: black;
+    font-size: 16px;
+}
+
+body {
+    font-family: Verdana;
+    color: white;
+    padding: 0 1%;
+}
+
+a {
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+h2 {
+    color: gray;
+    font-size: 1.3125rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*Header*/
+header {
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 3.125rem;
+}
+
+/*Travel Guide Section*/
+.travel-guide {
+    margin: 1.5rem 0;
+}
+
+.travel-guide h1 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+/*Coming Soon Section*/
+.coming-soon h1 {
+    font-weight: normal;
+    font-size: 3.125rem;
+}
+
+/*Footer*/
+footer {
+    margin-top: 1rem;
+}
+
+footer h2{
+    text-align: right;
+}
